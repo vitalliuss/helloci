@@ -7,6 +7,7 @@ import org.junit.Test;
 
 /**
  * Unit test for simple App.
+ * @author vitali_shulha
  */
 public class AppTest {
 
@@ -24,5 +25,15 @@ public class AppTest {
 	@Test
 	public void testShouldBeSKipped() {
 		assertTrue(true);
+	}
+	
+	@Test
+	public void testAnotherMethod() {
+		App.doNothing();
+	}
+	
+	@Test
+	public void testAnotherClass() {
+		EmptyClass.emptyMethod();
 	}
 }
