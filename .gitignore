@@ -1,4 +1,19 @@
+#.NET specific
+[Oo]bj
+[Bb]in
+*.user
+*.suo
+*.[Cc]ache
+*.bak
+*.ncb
+*.log 
+
+#Java specific
 target/
 .classpath
 .project
 .settings
+
+#OS specific
+*.DS_Store
+[Tt]humbs.db
