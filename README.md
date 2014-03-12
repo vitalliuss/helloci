@@ -1,11 +1,16 @@
 helloci
 =======
 
-Test project for "Hello, CI" training
+Test projects for "Hello, CI" training
 
 Build
 =======
-Execute Maven goal
+Java project: execute Maven goal
 ```
 mvn test
+```
+
+.NET project: execute MSBuild
+```
+MSBuild Calculator.sln
 ```
