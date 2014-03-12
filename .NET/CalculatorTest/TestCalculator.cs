@@ -1,12 +1,11 @@
 ﻿using NUnit.Framework;
-using HelloWorld;
+using System;
+using Calculator;
 
-namespace HelloWorldTests
+namespace CalculatorTest
 {
-    using System;
-
     [TestFixture]
-    public class TestHelloWorld
+    public class TestCalculator
     {
         [TestFixtureSetUp]
         public void Setup()
@@ -23,52 +22,52 @@ namespace HelloWorldTests
 
         [Category("SumTests")]
         [Test]
-        public void Test1()
+        public void OneCanSumPositiveIntegers()
         {
-            Assert.That(Calculator.Sum(5, 5), Is.EqualTo(10));
+            Assert.That(Calc.Sum(5, 5), Is.EqualTo(10));
         }
 
         [Category("SumTests")]
         [Test]
-        public void Test2()
+        public void OneCanSumNegativeIntegers()
         {
-            Assert.That(Calculator.Sum(-5, -5), Is.EqualTo(-10));
+            Assert.That(Calc.Sum(-5, -5), Is.EqualTo(-10));
         }
 
         [Category("SubstractTests")]
         [Test]
-        public void Test3()
+        public void OneCanSubstractPositiveIntegers()
         {
-            Assert.That(Calculator.Substract(5, 5), Is.EqualTo(0));
+            Assert.That(Calc.Substract(5, 5), Is.EqualTo(0));
         }
 
         [Category("SubstractTests")]
         [Test]
-        public void Test4()
+        public void OneCanSubstractNegativeIntegers()
         {
-            Assert.That(Calculator.Substract(-5, -5), Is.EqualTo(0));
+            Assert.That(Calc.Substract(-5, -5), Is.EqualTo(0));
         }     
         
         [Category("SubstractTests")]
         [Test]
-        public void Test5()
+        public void OneCanSubstracPositiveIntegertFromZero()
         {
-            Assert.That(Calculator.Substract(0, 100), Is.EqualTo(-100));
+            Assert.That(Calc.Substract(0, 100), Is.EqualTo(-100));
         }
 
         [Category("SubstractTests")]
         [Test]
-        public void Test6()
+        public void OneCanSubstracNegativeIntegertFromZero()
         {
-            Assert.That(Calculator.Substract(0, -100), Is.EqualTo(99));
+            Assert.That(Calc.Substract(0, -100), Is.EqualTo(99));
         }
         
         [Ignore("Ignoring")]
         [Category("SubstractTests")]
         [Test]
-        public void Test7()
+        public void OneCanDevideByZero()
         {
-            Assert.That(Calculator.Substract(0, -100), Is.EqualTo(99));
+            Assert.That(Calc.Devide(1, 0), Is.EqualTo(0));
         }         
     }
 }

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2012 for Windows Desktop
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{D14EDC87-864B-4608-ACE2-A5BC6AF2B030}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{D14EDC87-864B-4608-ACE2-A5BC6AF2B030}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldTests", "HelloWorldTets\HelloWorldTests.csproj", "{01C94748-9387-4FC1-8B90-FE379DFF30E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorTest", "CalculatorTest\CalculatorTest.csproj", "{01C94748-9387-4FC1-8B90-FE379DFF30E5}"
 	ProjectSection(ProjectDependencies) = postProject
 		{D14EDC87-864B-4608-ACE2-A5BC6AF2B030} = {D14EDC87-864B-4608-ACE2-A5BC6AF2B030}
 	EndProjectSection
