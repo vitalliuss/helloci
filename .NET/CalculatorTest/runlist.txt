@@ -1,0 +1,2 @@
+CalculatorTest.TestCalculator.OneCanSubstractPositiveIntegers
+CalculatorTest.TestCalculator.OneCanSubstractNegativeIntegers
