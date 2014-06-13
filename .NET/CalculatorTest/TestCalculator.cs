@@ -68,6 +68,16 @@ namespace CalculatorTest
         public void OneCanDevideByZero()
         {
             Assert.That(Calc.Devide(1, 0), Is.EqualTo(0));
-        }         
+        }
+
+        [Category("Configuration")]
+        [Test]
+        public void OneCanReadAppConfig()
+        {
+            string browserName = System.Configuration.ConfigurationSettings.AppSettings["BrowserName"];
+            Console.WriteLine("Browser: " + browserName);
+            string timeout = System.Configuration.ConfigurationSettings.AppSettings["TimeoutSeconds"];
+            Console.WriteLine("Timeout: " + timeout);
+        }
     }
 }
