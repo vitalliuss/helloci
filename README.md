@@ -1,4 +1,4 @@
-helloci
+hello ci!
 =======
 
 Test projects for "Hello, CI" training
