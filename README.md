@@ -1,4 +1,4 @@
-Hello, CI! AF test
+Hello, CI! AF test bla bla bla
 =======
 
 Test projects for "Hello, CI" training
