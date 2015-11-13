@@ -1,7 +1,7 @@
 Hello, CI!
 =======
 
-Test projects for "Hello, CI" training
+Test projects for Git training
 
 Build
 =======
