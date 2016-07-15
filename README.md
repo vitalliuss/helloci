@@ -1,4 +1,4 @@
-Hello, CI!
+Hello CI!
 =======
 
 Test projects for Git training
