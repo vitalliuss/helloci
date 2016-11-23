@@ -1,4 +1,5 @@
 helloci
+master
 =======
 
 Test projects for Git training
