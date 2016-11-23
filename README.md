@@ -1,5 +1,6 @@
-helloci
-master
+hello ci!
+develop
+
 =======
 
 Test projects for Git training
