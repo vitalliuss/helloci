@@ -1,6 +1,5 @@
-Hello, CI!
+helloci
 =======
-
 
 Test projects for Git training
 
