@@ -1,8 +1,6 @@
 Hello, CI
 =======
 
-commit!
-
 Test projects for Git training
 
 Build
