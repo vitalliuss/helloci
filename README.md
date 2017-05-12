@@ -1,6 +1,8 @@
 Hello, CI
 =======
 
+minskbranch
+
 Test projects for Git training
 
 Build
