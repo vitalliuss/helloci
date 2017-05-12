@@ -1,6 +1,4 @@
-Hello CI!!!
-
-demobranch data
+Hello, CI
 
 =======
 
