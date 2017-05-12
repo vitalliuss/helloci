@@ -1,5 +1,5 @@
 Hello CI!!!
-update
+
 =======
 
 Test projects for Git training
