@@ -2,6 +2,8 @@
 [Bb]in
 *.user
 *.suo
+*.[Cc]ache
+*.bak
 *.ncb
 *.log 
 
