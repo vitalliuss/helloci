@@ -59,7 +59,7 @@ namespace CalculatorTest
         [Test]
         public void OneCanSubstracNegativeIntegertFromZero()
         {
-            Assert.That(Calc.Substract(0, -100), Is.EqualTo(99));
+            Assert.That(Calc.Substract(0, -100), Is.EqualTo(100));
         }
         
         [Ignore("Ignoring")]
