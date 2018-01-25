@@ -7,13 +7,13 @@ namespace CalculatorTest
     [TestFixture]
     public class TestCalculator
     {
-        [TestFixtureSetUp]
+        [SetUp]
         public void Setup()
         {
             Console.WriteLine("Starting TestHelloWorld tests");
         }
 
-        [TestFixtureTearDown]
+        [TearDown]
         public void TearDown()
         {
             Console.WriteLine("TestHelloWorld tests are finished");
