@@ -7,13 +7,13 @@ namespace CalculatorTest
     [TestFixture]
     public class TestCalculator
     {
-        [TestFixtureSetUp]
+        [SetUp]
         public void Setup()
         {
             Console.WriteLine("Starting TestHelloWorld tests");
         }
 
-        [TestFixtureTearDown]
+        [TearDown]
         public void TearDown()
         {
             Console.WriteLine("TestHelloWorld tests are finished");
@@ -59,7 +59,7 @@ namespace CalculatorTest
         [Test]
         public void OneCanSubstracNegativeIntegertFromZero()
         {
-            Assert.That(Calc.Substract(0, -100), Is.EqualTo(99));
+            Assert.That(Calc.Substract(0, -100), Is.EqualTo(100));
         }
         
         [Ignore("Ignoring")]
