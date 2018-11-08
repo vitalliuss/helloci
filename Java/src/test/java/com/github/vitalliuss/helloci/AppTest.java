@@ -12,7 +12,7 @@ import org.junit.Test;
 public class AppTest {
 
 	@Test
-	public void testShoudBePassed() {
+	public void testShouldBePassed() {
 		assertTrue(true);
 	}
 
