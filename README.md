@@ -15,3 +15,9 @@ mvn clean test
 ```
 MSBuild Calculator.sln
 ```
+
+Code coverage
+========
+Please note code coverage can't be measured on Java 9 due to open issue in cobertura: https://github.com/cobertura/cobertura/issues/271
+
+Use Java 1.8 instead
